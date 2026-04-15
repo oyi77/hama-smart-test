@@ -6,9 +6,10 @@ from pydantic import BaseModel, Field, validator
 from typing import Optional
 from datetime import datetime
 from app.schemas.category import CategoryInTodo
+from enum import Enum
 
 
-class Priority(str, str):
+class Priority(str, Enum):
     """Priority type with validation."""
     LOW = "low"
     MEDIUM = "medium"

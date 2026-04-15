@@ -1,0 +1,124 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1776243813648,
+  "projectRoot": "/home/openclaw/hama-smart-test",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "master",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "backend": {
+      "path": "backend",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1776243813643,
+      "keyFiles": [
+        "requirements.txt"
+      ]
+    },
+    "desktop": {
+      "path": "desktop",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1776243813645,
+      "keyFiles": [
+        "main.js",
+        "package-lock.json",
+        "package.json"
+      ]
+    },
+    "backend/app": {
+      "path": "backend/app",
+      "purpose": "Application code",
+      "fileCount": 7,
+      "lastAccessed": 1776243813646,
+      "keyFiles": [
+        "__init__.py",
+        "crud.py",
+        "database.py"
+      ]
+    },
+    "backend/tests": {
+      "path": "backend/tests",
+      "purpose": "Test files",
+      "fileCount": 7,
+      "lastAccessed": 1776243813646,
+      "keyFiles": [
+        "__init__.py",
+        "conftest.py",
+        "test_api.py"
+      ]
+    },
+    "desktop/src": {
+      "path": "desktop/src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1776243813646,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "backend/app/schemas/todo.py",
+      "accessCount": 2,
+      "lastAccessed": 1776245133155,
+      "type": "file"
+    },
+    {
+      "path": "PLAN.md",
+      "accessCount": 1,
+      "lastAccessed": 1776244298304,
+      "type": "file"
+    },
+    {
+      "path": "desktop/AGENTS.md",
+      "accessCount": 1,
+      "lastAccessed": 1776244772827,
+      "type": "file"
+    },
+    {
+      "path": "backend/AGENTS.md",
+      "accessCount": 1,
+      "lastAccessed": 1776244772886,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 1,
+      "lastAccessed": 1776245009643,
+      "type": "file"
+    },
+    {
+      "path": "start_all.sh",
+      "accessCount": 1,
+      "lastAccessed": 1776245021788,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
