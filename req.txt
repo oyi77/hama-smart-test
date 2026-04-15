@@ -1,0 +1,15 @@
+Aplikasi Desktop "TodoList" dengan fitur sebagai berikut : 
+- List to do
+- Add to do
+- Update todo
+- Delete Todo
+
+Desktop menggunakan tampilan yang User Friendly.
+
+Techstack yang digunakan.
+Frontend untuk desktop itu sendiri menggunakan electron, dengan menggunakan fastapi sebagai backend api nya.
+
+Buat aplikasi ini dengan SDD, dan pastikan menerapkan SOLID+KISS. 
+
+Pastikan semuanya teruji, tervalidasi dan tested both from UI part and Backend Part.
+
