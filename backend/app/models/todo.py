@@ -2,15 +2,24 @@
 Todo model following Single Responsibility Principle.
 Handles todo item data structure and relationships.
 """
-from sqlalchemy import Column, Integer, String, Text, Boolean, DateTime, ForeignKey, Enum as SQLEnum
+
+from sqlalchemy import (
+    Column,
+    Integer,
+    String,
+    Text,
+    Boolean,
+    DateTime,
+    ForeignKey,
+    Enum as SQLEnum,
+)
 from sqlalchemy.sql import func
 from sqlalchemy.orm import relationship
 from app.core.database import Base
 import enum
 
 
-class Priority(str, enum.Enum):
-    """Priority levels for todos."""
+class Priority(enum.StrEnum):
     LOW = "low"
     MEDIUM = "medium"
     HIGH = "high"
@@ -22,6 +31,7 @@ class Todo(Base):
     Todo model for managing tasks.
     Follows Single Responsibility - only handles todo data.
     """
+
     __tablename__ = "todos"
 
     id = Column(Integer, primary_key=True, index=True)
