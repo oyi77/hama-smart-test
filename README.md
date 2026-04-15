@@ -38,6 +38,16 @@ This script will:
 2. Install all backend and frontend dependencies.
 3. Start the FastAPI server (Port 8000) and the Electron app concurrently.
 
+## Demo Video
+
+A comprehensive demonstration video showcasing the API functionality is available: [Watch Demo Video](./todolist_demo.mp4)
+
+This 4-second video demonstrates:
+- API endpoint operations (CREATE, READ, UPDATE, DELETE)
+- Category management
+- Search and filtering capabilities
+- Response formats and data structures
+
 ## Technical Note: Timing & Setup
 This project was completed for a Live Coding Test. Please note that the implementation exceeded the initial 30-minute window due to:
 - **Network Failure**: A temporary network disruption during the initial code-setup phase required significant troubleshooting to restore the environment and dependencies.
